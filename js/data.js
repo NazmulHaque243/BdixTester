@@ -1,8 +1,24 @@
-const data=`{
+const data = `{
     "data": [
         {
             "name": "INFO INTERNET-FTP Server",
             "link": "http://103.85.197.10/"
+        },
+        {
+            "name":"Timenai FTP",
+            "link":"http://timenai.com/"
+        },
+        {
+            "name":"Bangla Library",
+            "link":"https://www.ebanglalibrary.com/"
+        },
+        {
+            "name":"Discovery Movie",
+            "link":"http://movies.discoveryftp.net/"
+        },
+        {
+            "name":"Elaach FTP",
+            "link":"https://elaach.com/"
         },
         {
             "name": "Dhaka – FTP Server",
@@ -10,27 +26,15 @@ const data=`{
         },
         {
             "name": "circleftp.net",
-            "link": "http://15.1.1.1"
+            "link": "http://circleftp.net"
         },
         {
             "name": "CircleNetwork",
-            "link": "http://172.16.50.5/"
-        },
-        {
-            "name": "Samonline FTP Server ",
-            "link": "https://banglazoom.com/SAM-FTP-1"
+            "link": "http://circleftp.net"
         },
         {
             "name": "Samonline 2 FTP Server",
-            "link": "http://172.16.50.5/SAM-FTP-2/"
-        },
-        {
-            "name": "Movie Haat FTP Server",
-            "link": "https://banglazoom.com/moviehaat"
-        },
-        {
-            "name": "FTP IP Server ",
-            "link": "http://15.1.1.1/SERVER-1/DRIVE-1/"
+            "link": "http://172.16.50.4/"
         },
         {
             "name": "FTP IP Server 2",
@@ -57,10 +61,6 @@ const data=`{
             "link": "http://172.27.27.2/"
         },
         {
-            "name": "VdoMela FTP Server",
-            "link": "https://banglazoom.com/vdomela"
-        },
-        {
             "name": "Media FTP Server",
             "link": "http://45.120.114.222/"
         },
@@ -85,24 +85,8 @@ const data=`{
             "link": "http://10.16.100.100/"
         },
         {
-            "name": "DnetBD Drive FTP Server",
-            "link": "https://banglazoom.com/dnetbd"
-        },
-        {
             "name": "BDPLEX FTP Server",
             "link": "http://103.85.156.222/"
-        },
-        {
-            "name": "AlphaMedia FTP Server",
-            "link": "https://banglazoom.com/alphamediazoneftp"
-        },
-        {
-            "name": "BossBD FTP Server",
-            "link": "https://banglazoom.com/bossbdftp"
-        },
-        {
-            "name": "AlphaMedia FTP Server",
-            "link": "https://banglazoom.com/alphamediazoneftp"
         },
         {
             "name": "Planet Communications FTP Server",
@@ -113,20 +97,8 @@ const data=`{
             "link": "http://cdn.midiplex.net/"
         },
         {
-            "name": "BossBD FTP Server ",
-            "link": "https://banglazoom.com/bossbdftp"
-        },
-        {
             "name": "BDPLEX FTP Server ",
             "link": "http://103.85.156.222/"
-        },
-        {
-            "name": "DNET DRIVE FTP Server ",
-            "link": "https://banglazoom.com/dnetbd"
-        },
-        {
-            "name": "SAMONLINE FTP Server ",
-            "link": "http://172.16.50.7/"
         },
         {
             "name": "Talmuri FTP Server",
@@ -145,12 +117,12 @@ const data=`{
             "link": "http://naturalbd.com/"
         },
         {
-            "name": "iHub Live FTP Server",
-            "link": "https://banglazoom.com/ihubftp"
-        },
-        {
             "name": "Movie Box BD",
             "link": "http://movieboxbd.com/"
+        },
+        {
+            "name":"Explore Online",
+            "link":"http://103.222.20.150/"
         },
         {
             "name": "ftpbd.net",
@@ -165,16 +137,8 @@ const data=`{
             "link": "http://58.84.34.38/"
         },
         {
-            "name": "Cine Bioscope FTP Server",
-            "link": "https://banglazoom.com/cinebioscope"
-        },
-        {
             "name": "Movie Mela FTP Server",
             "link": "http://www.moviemela.live/"
-        },
-        {
-            "name": "DBIX Servers",
-            "link": "https://banglazoom.com/bdixservers"
         },
         {
             "name": "Dekh Vai FTP Server",
@@ -197,24 +161,12 @@ const data=`{
             "link": "http://103.67.198.6/index.php"
         },
         {
-            "name": "PC GAME 1 Sam online FTP Servers ",
-            "link": "http://172.16.50.5/SAM-FTP-2/PC%20Games/"
-        },
-        {
-            "name": "PC GAME FTP Server 2",
-            "link": "http://15.1.1.1/SERVER-1/DRIVE-1/GAMES%20-%20PC/"
-        },
-        {
             "name": "ftp.alphamediazone.com",
             "link": "http://ftp.alphamediazone.com/"
         },
         {
             "name": "Dhaka Torrent",
             "link": "http://172.27.27.5/"
-        },
-        {
-            "name": "Kickass Torrents",
-            "link": "https://banglazoom.com/kat"
         },
         {
             "name": "Planet Communinications FTP",
@@ -297,4 +249,4 @@ const data=`{
             "link": "http://megaplexbd.com/"
         }
     ]
-}`
+}`;
