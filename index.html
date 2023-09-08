@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <title>BDIX-Tester</title>
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <svg
+          width="230"
+          height="230"
+          viewBox="0 0 230 230"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="out_circle"
+            d="M0.00227439 115.716C-0.392957 52.2041 50.7729 0.397445 114.284 0.00221335C177.796 -0.393018 229.603 50.7728 229.998 114.284C230.393 177.796 179.227 229.603 115.716 229.998C52.2042 230.393 0.397506 179.227 0.00227439 115.716ZM214.377 114.382C214.036 59.4971 169.266 15.2813 114.382 15.6229C59.4972 15.9644 15.2814 60.7339 15.6229 115.618C15.9645 170.503 60.734 214.719 115.618 214.377C170.503 214.036 214.719 169.266 214.377 114.382Z"
+            fill="#00C0C0"
+          />
+          <path
+            id="inner_circle"
+            d="M113.882 8.80985C170.766 8.4991 217.139 55.7043 217.459 114.246C217.779 172.787 171.924 220.496 115.04 220.807C58.1552 221.117 11.782 173.912 11.4622 115.371C11.1424 56.8296 56.9971 9.1206 113.882 8.80985ZM115 213.618C168.027 213.329 210.772 168.855 210.474 114.284C210.176 59.7125 166.948 15.7086 113.921 15.9982C60.8941 16.2879 18.149 60.7615 18.4471 115.333C18.7452 169.904 61.9736 213.908 115 213.618Z"
+            fill="#6FF6FF"
+          />
+        </svg>
+
+        <!-- <div id="loader"></div> -->
+        
+
+        <button class="btn" id="btn-1">view</button>
+        <button class="btn" id="btn-0">Test again</button>
+        <h5 id="current"></h5>
+        <progress id="persent" value="0" max="100"></progress>
+      </div>
+
+      <div class="container">
+        <div class="links active">
+          <h3>sever links</h3>
+          <div id="links-container">
+          </div>
+        </div>
+      </div>
+      <div class="container gap">
+        
+
+        <button class="btn" id="btn-2">Start Test</button>
+      </div>
+      <div class="massage"></div>
+    </div>
+    <script src="./js/data.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+    <!-- <script src="./js/in.js"></script> -->
+  </body>
+</html>
